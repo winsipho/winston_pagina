@@ -7,41 +7,45 @@
 <link rel="stylesheet" type="text/css" href="estilo_principal.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li class="menu-item"><a href="#"> Archivo </a>
+          <ul class="submenu">
+            <li> <a href="#"> Nuevo </a> </li>
+            <li> <a href="#"> Guardar </a> </li>
+            <li> <a href="#"> Abrir </a> </li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="#"> Editar </a>
+          <ul class="submenu">
+            <li> <a href="#"> Copiar </a> </li>
+            <li> <a href="#"> Cortar </a> </li>
+            <li> <a href="#"> Pegar </a> </li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="#"> Encontrar </a>
+          <ul class="submenu">
+            <li> <a href="#"> Buscar </a> </li>
+            <li> <a href="#"> Remplazar </a> </li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="#"> Ayuda </a>
+          <ul class="submenu">
+            <li> <a href="#"> Ayuda </a> </li>
+            <li> <a href="#"> Acerca de </a> </li>
+          </ul>
+        </li>
+      </ul>
+      </nav>
+
+  </header>
   <div id="estilo_principal">
 <style type="text/css">
 
 </style>
 
-<nav>
-  <ul>
-    <li class="menu-item"><a href="#"> Archivo </a>
-      <ul class="submenu">
-        <li> <a href="#"> Nuevo </a> </li>
-        <li> <a href="#"> Guardar </a> </li>
-        <li> <a href="#"> Abrir </a> </li>
-      </ul>
-    </li>
-    <li class="menu-item"><a href="#"> Editar </a>
-      <ul class="submenu">
-        <li> <a href="#"> Copiar </a> </li>
-        <li> <a href="#"> Cortar </a> </li>
-        <li> <a href="#"> Pegar </a> </li>
-      </ul>
-    </li>
-    <li class="menu-item"><a href="#"> Encontrar </a>
-      <ul class="submenu">
-        <li> <a href="#"> Buscar </a> </li>
-        <li> <a href="#"> Remplazar </a> </li>
-      </ul>
-    </li>
-    <li class="menu-item"><a href="#"> Ayuda </a>
-      <ul class="submenu">
-        <li> <a href="#"> Ayuda </a> </li>
-        <li> <a href="#"> Acerca de </a> </li>
-      </ul>
-    </li>
-  </ul>
-  </nav>
+
 
 
   <center>
