@@ -8,39 +8,6 @@
 </head>
 <body>
 <style type="text/css">
-  .menu-item{
-    float:left;
-  }
-    nav ul{
-      list-style: none;
-    }
-    nav a {
-      text-decoration:none;
-      padding: 10px;
-      display: block;
-    }
-   nav ul, nav li{
-     padding: 0px;
-     margin: 0px:;
-   }
-   nav li{
-     width: 100px;
-     background-color:MediumPurple;
-   }
-   nav{
-     background-color:MediumPurple;
-     overflow: auto;
-   }
-   .submenu{
-     display: none;
-     position: absolute;
-   }
-   .menu-item:hover .submenu{
-     display:block;
-   }
-   nav li:hover{
-     background-color: OrangeRed;
-   }
 
 </style>
 
