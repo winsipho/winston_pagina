@@ -1,12 +1,14 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css?family=Spectral|Tenali+Ramakrishna');
-</style> 
+
 #estilo_pricipal{
   background-color:white;
   width:70%;
   margin:auto;
   border:1px solid black;
-  font-family:arial,sans-serif;
+  font-family: 'Spectral', serif;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+
   overflow auto;
 }
 
