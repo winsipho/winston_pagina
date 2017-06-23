@@ -1,4 +1,4 @@
-<center>
+
 
 <html>
 
@@ -44,9 +44,6 @@
 
 </style>
 
-
-
-
 <nav>
   <ul>
     <li class="menu-item"><a href="#"> Archivo </a>
@@ -77,13 +74,10 @@
     </li>
   </ul>
   </nav>
-
 </div>
-</body>
-</html>
-
+<center>
 <form method="post" action="registro_manejo.php">
-<p>Nombre de usuario <input  required type="text" name="nombre_de_usuario"></p>
+<p>Usuario <input  required type="text" name="nombre_de_usuario"></p>
 <p>Contraseña <input required type="password" name="contraseña"></p>
 </p>correo <input required type="text" name="correo"></p>
 </p>Telefono <input required type="text" name="telefono" onkeypress="return valida(event)"></p>
@@ -107,3 +101,6 @@ function valida(e){
 <input type="submit" value="enviar">
 </form>
 </center>
+
+</body>
+</html>
