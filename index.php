@@ -3,10 +3,11 @@
 <html>
 
 <head>
-<div id="estilo_principal">
+
 <link rel="stylesheet" type="text/css" href="estilo_principal.css">
 </head>
 <body>
+  <div id="estilo_principal">
 <style type="text/css">
 
 </style>
