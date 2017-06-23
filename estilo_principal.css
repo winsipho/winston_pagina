@@ -6,7 +6,7 @@
   font-family:arial,sans-serif;
   overflow auto;
 }
-<style type="text/css">
+
 .menu-item{
   float:left;
 }
@@ -35,10 +35,22 @@
    position: absolute;
  }
  .menu-item:hover .submenu{
-   display:block;
+   animation-name: Menu;
+   animation-duration: 2s;
+   opacity:  0.95;
+   display: block;
  }
  nav li:hover{
    background-color: OrangeRed;
  }
 
-</style>
+ @keyframes Menu{
+
+ 	from{
+ 		opacity: 0;
+ 	}
+ 	to{
+ 		opacity: 0.95;
+ 	}
+ }
+ 
