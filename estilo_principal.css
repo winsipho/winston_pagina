@@ -1,3 +1,6 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Spectral|Tenali+Ramakrishna');
+</style> 
 #estilo_pricipal{
   background-color:white;
   width:70%;
@@ -6,6 +9,7 @@
   font-family:arial,sans-serif;
   overflow auto;
 }
+
 
 .menu-item{
   float:left;
@@ -53,4 +57,3 @@
  		opacity: 0.95;
  	}
  }
- 
