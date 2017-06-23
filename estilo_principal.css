@@ -1,0 +1,8 @@
+#estilo_pricipal{
+  background-color:white;
+  width:70%;
+  margin:auto;
+  border:1px solid black;
+  font-family:arial,sans-serif;
+  overflow auto;
+}

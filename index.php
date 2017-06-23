@@ -1,21 +1,97 @@
 <center>
-  <div>
-  	<a href="#">Archivo</a>
-    <a href="#">Editar</a>
-  	<a href="#">Encontrar</a>
-    <a href="#">Ayuda</a>
-  	</div>
+
+<html>
+
+<head>
+<div id="estilo_principal">
+<link rel="stylesheet" type="text/css" href="estilo_principal.css">
+</head>
+<body>
+<style type="text/css">
+  .menu-item{
+    float:left;
+  }
+    nav ul{
+      list-style: none;
+    }
+    nav a {
+      text-decoration:none;
+      padding: 10px;
+      display: block;
+    }
+   nav ul, nav li{
+     padding: 0px;
+     margin: 0px:;
+   }
+   nav li{
+     width: 100px;
+     background-color:MediumPurple;
+   }
+   nav{
+     background-color:MediumPurple;
+     overflow: auto;
+   }
+   .submenu{
+     display: none;
+     position: absolute;
+   }
+   .menu-item:hover .submenu{
+     display:block;
+   }
+   nav li:hover{
+     background-color: OrangeRed;
+   }
+
+</style>
+
+
+
+
+<nav>
+  <ul>
+    <li class="menu-item"><a href="#"> Archivo </a>
+      <ul class="submenu">
+        <li> <a href="#"> Nuevo </a> </li>
+        <li> <a href="#"> Guardar </a> </li>
+        <li> <a href="#"> Abrir </a> </li>
+      </ul>
+    </li>
+    <li class="menu-item"><a href="#"> Editar </a>
+      <ul class="submenu">
+        <li> <a href="#"> Copiar </a> </li>
+        <li> <a href="#"> Cortar </a> </li>
+        <li> <a href="#"> Pegar </a> </li>
+      </ul>
+    </li>
+    <li class="menu-item"><a href="#"> Encontrar </a>
+      <ul class="submenu">
+        <li> <a href="#"> Buscar </a> </li>
+        <li> <a href="#"> Remplazar </a> </li>
+      </ul>
+    </li>
+    <li class="menu-item"><a href="#"> Ayuda </a>
+      <ul class="submenu">
+        <li> <a href="#"> Ayuda </a> </li>
+        <li> <a href="#"> Acerca de </a> </li>
+      </ul>
+    </li>
+  </ul>
+  </nav>
+
+</div>
+</body>
+</html>
 
 <form method="post" action="registro_manejo.php">
 <p>Nombre de usuario <input  required type="text" name="nombre_de_usuario"></p>
 <p>Contraseña <input required type="password" name="contraseña"></p>
 </p>correo <input required type="text" name="correo"></p>
 </p>Telefono <input required type="text" name="telefono" onkeypress="return valida(event)"></p>
-  //captar que el usuario presiona una tecla onkeypress="return valida(event)
+
 <script>
 function valida(e){
     tecla = (document.all) ? e.keyCode : e.which;
-
+    //captar que el usuario presiona una tecla onkeypress="return valida(event) linea 89
     //Tecla de retroceso para borrar, siempre la permite
     if (tecla==8){
         return true;
