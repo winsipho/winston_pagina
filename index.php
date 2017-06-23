@@ -3,8 +3,11 @@
 <html>
 
 <head>
+<!--taañño en movil linea 7-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--color en movil bordes -->
   <meta name="theme-color" content="#B60060">
-    <meta name="msapplication-navbutton-color" content="#B60060">
+  <meta name="msapplication-navbutton-color" content="#B60060">
 <link rel="stylesheet" type="text/css" href="estilo_principal.css">
 </head>
 <body>
