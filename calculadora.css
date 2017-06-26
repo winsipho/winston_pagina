@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Volkhov');
+
+.boton {
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+	border-color: transparent;
+	border-radius: 50px;
+	 margin-left: 13%;
+	background: #4B0082;
+	color: #ffffff;
+}
+.fa-calculator {
+	  padding-top: 50%;
+		padding-left: 50%;
+    color: #00FF00;
+    text-shadow: 1px 1px 1px #ccc;
+  /*  font-size: 1.5em;*/
+}
+
+@media only screen
+and (max-width : 412px) {
+  .boton {
+  	width: 50px;
+  	height: 50px;
+  	font-size: 30px;
+  	border-color: transparent;
+  	border-radius: 50px;
+  	margin-left: 8%;
+  	background: #3CB371;
+  	color: #ffffff;
+  }
+	.fa-calculator {
+	    color: #fff;
+	    text-shadow: 1px 1px 1px #ccc;
+	  /*  font-size: 1.5em;*/
+		padding-top: 0%;
+		padding-left: 0%;
+		padding-bottom: 2%;
+	}
+}
+
+.caja {
+	font-size: 30px;
+	border-radius: 50px;
+	border-color: transparent;
+font-family: 'Volkhov', serif;
+}
+.cajaCuerpo{
+	padding-top: 5%;
+}
+.cuerpo {
+	background: #00FF00;
+	border-radius: 25px;
+  margin-top: 15%;
+ /*	margin: 80 ;*/
+}
+.boton:hover {
+		background: #00FF00;
+}
+body {
+	/*color de hoa*/
+	background: #00FA9A;
+}
