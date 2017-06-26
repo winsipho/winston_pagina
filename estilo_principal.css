@@ -1,12 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css?family=Spectral|Tenali+Ramakrishna');
+/*linea 3 importar enlace de la fuente de letras*/
+@import url('https://fonts.googleapis.com/css?family=Spectral');
 
 #estilo_principal{
   background-color:white;
   width:70%;
   margin:auto;
   border:1px solid black;
-  font-family: 'Tenali Ramakrishna', sans-serif;
+  /* linea 11 se modifica el font family */
+  font-family: 'Spectral', serif;
 
   overflow auto;
 }
@@ -27,12 +29,14 @@
    padding: 0px;
    margin: 0px:;
  }
+ /*background-color:SteelBlue; se sustituye el nombre por otro color para el borde del menu*/
  nav li{
    width: 100px;
-   background-color:MediumPurple;
+   background-color:SteelBlue;
  }
  nav{
-   background-color:MediumPurple;
+   /*background-color:SteelBlue; se sustituye el nombre por otro color para el borde del menu*/
+   background-color:SteelBlue;
    overflow: auto;
  }
  .submenu{
@@ -46,7 +50,8 @@
    display: block;
  }
  nav li:hover{
-   background-color: OrangeRed;
+   /*background-color:SteelBlue; se sustituye el nombre por otro color para el borde de la opcion*/
+   background-color: LightSteelBlue;
  }
 
  @keyframes Menu{

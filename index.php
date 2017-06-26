@@ -1,13 +1,11 @@
-
-
 <html>
 
 <head>
-<!--taañño en movil linea 7-->
+<!--taañño en movil linea 5-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--color en movil bordes -->
-  <meta name="theme-color" content="#B60060">
-  <meta name="msapplication-navbutton-color" content="#B60060">
+  <!--color en movil bordes  linea  7 y 8-->
+  <meta name="theme-color" content="#413F3F">
+  <meta name="msapplication-navbutton-color" content="#413F3F">
 <link rel="stylesheet" type="text/css" href="estilo_principal.css">
 </head>
 <body>
@@ -48,10 +46,6 @@
 <style type="text/css">
 
 </style>
-
-
-
-
   <center>
   <form method="post" action="registro_manejo.php">
   <p>Usuario <input  required type="text" name="nombre_de_usuario"></p>
@@ -67,7 +61,6 @@
       if (tecla==8){
           return true;
       }
-
       // Patron de entrada, en este caso solo acepta numeros
       patron =/[0-9]/;
       tecla_final = String.fromCharCode(tecla);
