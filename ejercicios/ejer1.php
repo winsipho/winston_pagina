@@ -1,5 +1,6 @@
 <html>
 <head>
+  <!-- a) Programa que permita encontrar el cubo de un número.  -->
 </head>
 <body>
   <form id="formulario1" onsubmit="return false">
