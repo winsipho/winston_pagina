@@ -7,6 +7,7 @@
   <meta name="theme-color" content="#413F3F">
   <meta name="msapplication-navbutton-color" content="#413F3F">
 <link rel="stylesheet" type="text/css" href="estilo_principal.css">
+<link rel="stylesheet" type="text/css" href="gridview.css">
 </head>
 <body>
   <header>
