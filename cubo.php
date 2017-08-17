@@ -14,7 +14,7 @@
 var formulario=document.getElementById("formulario1");
 document.getElementById("idboton").addEventListener("click", function(){
   var numero = document.getElementById("numero1").value;
-  var cubo(numer*numero*numero);
+  var cubo(numero*numero*numero);
   document.getElementById("resultado").innerHTML = cubo;
 });
 </script>
